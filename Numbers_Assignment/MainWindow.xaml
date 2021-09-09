@@ -1,0 +1,18 @@
+﻿<Window x:Class="Numbers_Assignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Numbers_Assignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBoxFirstNum" HorizontalAlignment="Left" Height="23" Margin="342,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Enter Number"/>
+        <TextBox x:Name="textBoxSecondNumber" HorizontalAlignment="Left" Height="23" Margin="342,286,0,0" TextWrapping="Wrap" Text="Enter Number" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="Enter a Whole Number" HorizontalAlignment="Left" Margin="144,227,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Enter a Double" HorizontalAlignment="Left" Margin="157,286,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="My Output" HorizontalAlignment="Left" Margin="362,147,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Push" HorizontalAlignment="Left" Margin="208,361,0,0" VerticalAlignment="Top" Width="348" Click="button_Click"/>
+
+    </Grid>
+</Window>
